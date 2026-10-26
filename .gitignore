@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+
+# recriados pelos scripts (baixar_dados.py, treinar.py, pipeline.py, tatico.py)
+dados/
+weights/
+*.pt
+saidas/*_anotado.mp4
+saidas/*_tatico.mp4

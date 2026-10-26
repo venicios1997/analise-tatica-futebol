@@ -1,0 +1,13 @@
+{
+  "frames": 750,
+  "ids_pessoa": 47,
+  "duracao_mediana_id_s": 11.7,
+  "pessoas_por_frame": 24,
+  "bola_frames_pct": 69.6,
+  "ids_por_categoria": {
+    "B": 18,
+    "A": 15,
+    "outro": 8,
+    "goleiro": 6
+  }
+}

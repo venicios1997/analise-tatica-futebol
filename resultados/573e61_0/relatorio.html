@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Análise: 573e61_0</title><style>
+:root{--bg:#fbfaf7;--fg:#1d1d1b;--muted:#5f5e58;--line:#e2dfd6;--card:#ffffff;--accent:#1f7a4d;--accent-soft:#e3f1e9;--warn:#fff4dc;--warn-line:#e9c46a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161714;--fg:#ecebe6;--muted:#a3a29b;--line:#34352f;--card:#1f201c;--accent:#5cc28d;--accent-soft:#1d3327;--warn:#2e2816;--warn-line:#8a7430}}
+:root[data-theme="dark"]{--bg:#161714;--fg:#ecebe6;--muted:#a3a29b;--line:#34352f;--card:#1f201c;--accent:#5cc28d;--accent-soft:#1d3327;--warn:#2e2816;--warn-line:#8a7430}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header,main,footer{max-width:1080px;margin:0 auto;padding:0 16px}
+header{padding-top:48px;padding-bottom:8px}
+.sobre{color:var(--accent);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin:0}
+h1{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:8px 0 12px}
+h2{font-size:26px;margin:0 0 12px;padding-top:8px}
+h3{font-size:18px;margin:28px 0 8px}
+.lead{font-size:18px;color:var(--muted);max-width:760px}
+nav{display:flex;flex-wrap:wrap;gap:6px 18px;margin:20px 0 0;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+nav a{color:var(--fg);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--accent)}
+section{padding:36px 0;border-bottom:1px solid var(--line)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;border:0;padding-top:28px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+.kpi-rotulo{font-size:13px;color:var(--muted);font-weight:600}
+.kpi-valor{font-size:26px;margin:4px 0;font-variant-numeric:tabular-nums}
+.kpi-valor .antes{color:var(--muted);font-size:20px}
+.kpi-valor strong{color:var(--accent)}
+.kpi-nota{font-size:13px;color:var(--muted)}
+.tabela{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;background:var(--card)}
+th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);font-weight:600}
+td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+tr.destaque td{background:var(--accent-soft);font-weight:600}
+figure{margin:16px 0}
+figure img{width:100%;height:auto;border:1px solid var(--line);border-radius:8px;display:block}
+figcaption{font-size:13px;color:var(--muted);margin-top:6px}
+figure.estreita{max-width:560px}
+.grade{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+video{width:100%;border-radius:8px;border:1px solid var(--line);background:#000;margin:8px 0}
+.aviso{background:var(--warn);border-left:4px solid var(--warn-line);padding:14px 16px;border-radius:6px;margin:16px 0}
+.numeros{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:20px 0}
+.numeros div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;color:var(--muted);font-size:14px}
+.numeros span{display:block;font-size:26px;color:var(--fg);font-weight:600;font-variant-numeric:tabular-nums}
+.nota{font-size:14px;color:var(--muted)}
+code{font-size:.9em;background:var(--accent-soft);padding:1px 5px;border-radius:4px}
+ol li,ul li{margin-bottom:8px}
+footer{padding:28px 16px 48px;color:var(--muted);font-size:13px}
+</style></head>
+<body><header>
+  <p class="sobre">Análise tática de futebol · resultado por vídeo</p>
+  <h1>573e61_0</h1>
+  <p class="lead">Analisado em 26/10/2026 09:35, em 1.4 min.
+  Caixas com a confiança de cada detecção; cores de time aprendidas deste vídeo
+  (<strong>A</strong> em azul, <strong>B</strong> em rosa, arbitragem em amarelo, goleiros em verde).</p>
+</header><main>
+<section><h2>Resumo</h2><div class="numeros"><div><span>30 s</span>1920×1080, 25 fps</div><div><span>24</span>pessoas por frame (mediana)</div><div><span>70%</span>frames com a bola</div><div><span>100%</span>frames com mapa tático</div><div><span>99% × 1%</span>posse A × B (285 frames com dono)</div><div><span>47</span>IDs de pessoa no vídeo</div></div><p class="nota">Nenhum alerta: o vídeo se parece com uma transmissão de câmera principal.</p></section>
+<section><h2>Vídeo com detecções</h2>
+  <video src="web/anotado.mp4" controls muted loop playsinline preload="metadata"></video>
+  <p class="nota">Rótulo <code>#ID confiança</code>: o ID segue a pessoa ao longo do vídeo; a confiança é o quanto o modelo
+  está seguro daquela detecção naquele frame.</p></section>
+<section><h2>Mapa tático</h2>
+  <video src="web/tatico.mp4" controls muted loop playsinline preload="metadata"></video>
+  <p class="nota">Linhas rosa: o campo oficial reprojetado pela homografia. Quando elas casam com as linhas reais,
+  as posições em metros são confiáveis (erro típico de ~3 m).</p>
+  <figure class="estreita"><a href="573e61_0_calor.png" target="_blank"><img src="573e61_0_calor.png" alt="Mapa de calor de cada time." loading="lazy"></a><figcaption>Mapa de calor de cada time.</figcaption></figure></section>
+<section><h2>Jogadores (IDs com 5 s ou mais em cena)</h2><div class="tabela"><table><thead><tr><th>ID</th><th>time</th><th>tempo em cena (s)</th><th>distância (m)</th><th>vel. média (km/h)</th><th>vel. máx. 1 s (km/h)</th></tr></thead><tbody><tr><td class="num">6</td><td>A</td><td class="num">30</td><td class="num">97.6</td><td class="num">11.7</td><td class="num">21.7</td></tr><tr><td class="num">18</td><td>A</td><td class="num">30</td><td class="num">94</td><td class="num">11.3</td><td class="num">21.2</td></tr><tr><td class="num">20</td><td>B</td><td class="num">30</td><td class="num">92.6</td><td class="num">11.1</td><td class="num">20.9</td></tr><tr><td class="num">13</td><td>A</td><td class="num">28.8</td><td class="num">91.6</td><td class="num">11.4</td><td class="num">27.6</td></tr><tr><td class="num">16</td><td>A</td><td class="num">30</td><td class="num">90.9</td><td class="num">10.9</td><td class="num">20.2</td></tr><tr><td class="num">14</td><td>B</td><td class="num">30</td><td class="num">89.4</td><td class="num">10.7</td><td class="num">21.8</td></tr><tr><td class="num">22</td><td>B</td><td class="num">29.9</td><td class="num">87.2</td><td class="num">10.5</td><td class="num">21.5</td></tr><tr><td class="num">7</td><td>A</td><td class="num">30</td><td class="num">84.7</td><td class="num">10.2</td><td class="num">18.1</td></tr><tr><td class="num">15</td><td>B</td><td class="num">30</td><td class="num">81.2</td><td class="num">9.8</td><td class="num">19.6</td></tr><tr><td class="num">24</td><td>B</td><td class="num">26.5</td><td class="num">78.6</td><td class="num">10.7</td><td class="num">21.6</td></tr><tr><td class="num">0</td><td>A</td><td class="num">30</td><td class="num">77.2</td><td class="num">9.3</td><td class="num">18.7</td></tr><tr><td class="num">8</td><td>B</td><td class="num">23.2</td><td class="num">67.9</td><td class="num">10.6</td><td class="num">16.8</td></tr><tr><td class="num">2</td><td>B</td><td class="num">30</td><td class="num">67.7</td><td class="num">8.1</td><td class="num">20.6</td></tr><tr><td class="num">4</td><td>A</td><td class="num">30</td><td class="num">65.1</td><td class="num">7.8</td><td class="num">19</td></tr><tr><td class="num">11</td><td>B</td><td class="num">30</td><td class="num">64.2</td><td class="num">7.7</td><td class="num">17.6</td></tr><tr><td class="num">1</td><td>A</td><td class="num">30</td><td class="num">63.9</td><td class="num">7.7</td><td class="num">14.7</td></tr><tr><td class="num">5</td><td>A</td><td class="num">30</td><td class="num">63.9</td><td class="num">7.7</td><td class="num">20.7</td></tr><tr><td class="num">9</td><td>A</td><td class="num">29.7</td><td class="num">63.8</td><td class="num">7.7</td><td class="num">18.3</td></tr><tr><td class="num">10</td><td>B</td><td class="num">30</td><td class="num">61.6</td><td class="num">7.4</td><td class="num">14.4</td></tr><tr><td class="num">3</td><td>B</td><td class="num">14.8</td><td class="num">34.3</td><td class="num">8.3</td><td class="num">14.7</td></tr><tr><td class="num">34</td><td>B</td><td class="num">14.2</td><td class="num">24.7</td><td class="num">6.3</td><td class="num">12.8</td></tr><tr><td class="num">27</td><td>goleiro</td><td class="num">5.2</td><td class="num">14.2</td><td class="num">9.9</td><td class="num">16.1</td></tr><tr><td class="num">40</td><td>B</td><td class="num">6.8</td><td class="num">13.9</td><td class="num">7.4</td><td class="num">15.9</td></tr><tr><td class="num">30</td><td>A</td><td class="num">11.7</td><td class="num">9.8</td><td class="num">3</td><td class="num">7.9</td></tr><tr><td class="num">38</td><td>A</td><td class="num">9.9</td><td class="num">9.4</td><td class="num">3.4</td><td class="num">7.9</td></tr></tbody></table></div>
+  <p class="nota">Distância e velocidade herdam o erro da homografia; use para comparar jogadores do mesmo vídeo,
+  não como medida exata.</p></section>
+<section><h2>Arquivos</h2><ul>
+  <li><code>573e61_0_finetuned_tracks.csv</code>: cada detecção por frame (caixa em pixels, confiança, time).</li>
+  <li><code>573e61_0_posicoes.csv</code>: as mesmas detecções com posição no campo em metros.</li>
+  <li><code>573e61_0_jogadores.csv</code>: distância e velocidade por jogador.</li>
+  <li><code>573e61_0_resumo_tatico.json</code>: números do resumo.</li>
+</ul></section>
+</main><footer>Gerado por <code>src/analisar.py</code>. Modelos: detector YOLO11m treinado para futebol e modelo de 32 pontos do campo.</footer>
+</body></html>

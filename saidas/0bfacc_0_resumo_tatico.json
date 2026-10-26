@@ -1,0 +1,15 @@
+{
+  "frames": 750,
+  "frames_homografia_propria": 750,
+  "frames_com_homografia": 750,
+  "pontos_apos_ransac_mediana": 8.0,
+  "fps": 25.0,
+  "posicoes_dentro_do_campo_pct": 99.8,
+  "posse": {
+    "A": 98.6,
+    "B": 1.4,
+    "frames_com_dono": 287
+  },
+  "limiar_ransac_m": 3.0,
+  "pesos_campo": "campo"
+}

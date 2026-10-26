@@ -1,0 +1,5 @@
+modelo,mAP50 pessoa,mAP50 bola,mAP50-95 pessoa,mAP50-95 bola,recall pessoa@0.3,recall bola@0.3,ms/imagem
+COCO genérico,0.873,0.432,0.716,0.218,0.923,0.216,42.87
+COCO + máscara do gramado (nível 1),0.883,0.458,0.723,0.23,0.923,0.216,87.519
+fine-tuned (por_jogo),0.989,0.711,0.841,0.401,0.992,0.716,45.022
+fine-tuned (por_foto),0.989,0.701,0.833,0.359,0.991,0.73,44.312

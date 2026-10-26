@@ -1,0 +1,3 @@
+modelo,mAP50 pessoa,mAP50 bola,mAP50-95 pessoa,mAP50-95 bola,recall pessoa@0.3,recall bola@0.3,ms/imagem
+fine-tuned (por_jogo),0.99,0.723,0.86,0.391,0.999,0.72,49.539
+fine-tuned (por_foto),0.99,0.599,0.813,0.305,0.992,0.56,51.421

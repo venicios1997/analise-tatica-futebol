@@ -1,0 +1,12 @@
+{
+  "modelo": "campo_1280",
+  "imgsz": 1280,
+  "limiar_ransac_m": 3.0,
+  "imagens": 28,
+  "sem_homografia": 2,
+  "erro_mediana_m": 4.61,
+  "erro_p90_m": 7.45,
+  "erro_max_m": 9.85,
+  "piso_mediana_m": 0.92,
+  "piso_p90_m": 1.02
+}
