@@ -2,6 +2,8 @@
 
 Trabalho final da disciplina de Visão Computacional, MBA em Ciência de Dados.
 
+**Autor:** Marcos Venicios de Andrade
+
 A partir de um vídeo de transmissão de futebol, o sistema detecta jogadores,
 goleiros, árbitros e a bola, segue cada pessoa ao longo do vídeo, separa os
 times pela cor da camisa e projeta tudo numa vista de cima do campo, em

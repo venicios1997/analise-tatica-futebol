@@ -183,6 +183,7 @@ def montar() -> str:
 <header>
   <p class="sobre">MBA Ciência de Dados · Visão Computacional</p>
   <h1>Análise tática de futebol: do pixel ao mapa tático</h1>
+  <p class="autor">Marcos Venicios de Andrade</p>
   <p class="lead">A partir de um vídeo de transmissão, o sistema detecta jogadores, árbitros e bola, segue cada
   pessoa ao longo do tempo, separa os times pela cor da camisa e projeta tudo numa vista de cima do campo, em metros.
   Todas as métricas abaixo foram medidas em <strong>jogos que os modelos nunca viram</strong>.</p>
@@ -322,6 +323,7 @@ CSS = """
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
 header,main,footer{max-width:1080px;margin:0 auto;padding:0 16px}
 header{padding-top:48px;padding-bottom:8px}
+.autor{font-weight:600;font-size:16px;margin:4px 0 12px}
 .sobre{color:var(--accent);font-weight:600;letter-spacing:.04em;text-transform:uppercase;font-size:13px;margin:0}
 h1{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:8px 0 12px}
 h2{font-size:26px;margin:0 0 12px;padding-top:8px}
